@@ -1,23 +1,9 @@
-# MetaJava
+This JavaScript code defines an array of NFT objects, each representing a non-fungible token with properties such as name, size, properties, color, and brand.
 
-MIT License
+The `mintNFT` function takes an NFT object as an argument, adds it to the `NFTs` array, and returns the newly minted NFT.
 
-Copyright (c) 2024 MetacrafterChris
+The `listNFTs` function iterates through the `NFTs` array and logs each NFT object to the console.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The `getTotalSupply` function logs the total number of NFTs in the `NFTs` array to the console.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The code then calls the `mintNFT` function twice to create two new NFTs, and then calls the `listNFTs` and `getTotalSupply` functions to display the newly minted NFTs and the total supply of NFTs.
